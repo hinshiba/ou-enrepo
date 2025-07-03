@@ -1,0 +1,7 @@
+[package]
+name = "ou-enrepo"
+version = "0.1.0"
+entrypoint = "ou-enrepo.typ"
+authors = ["hinshiba"]
+license = "MIT"
+description = "English report at the Okayama University."
