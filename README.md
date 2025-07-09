@@ -1,8 +1,8 @@
 # ou-enrepo
 
-English report at the Okayama University.
+English report at the Okayama University (Unofficial).
 
-岡山大学での英語講義での提出用エッセイ/レポートのためのスタイル．
+岡山大学での英語講義での提出用エッセイ/レポートのための非公式スタイル．
 
 大体準拠しているはず．
 
