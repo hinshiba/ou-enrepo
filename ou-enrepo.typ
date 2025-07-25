@@ -33,7 +33,7 @@
 
   // title
   align(center)[
-    #par(text(1em + 1pt, strong[#title]))
+    #par(text(1em + 2pt, strong[#title]))
     #v(-2pt)
     #if subtitle != none {
       par(text(1em, [#subtitle]))
