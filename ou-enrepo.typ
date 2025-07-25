@@ -25,7 +25,7 @@
   set document(title: title, author: author)
   set page(paper: paper)
   set text(hyphenate: true, lang: "en", size: size, font: font)
-  set par(spacing: 1em, first-line-indent: (amount: 4em, all: true))
+  set par(spacing: 1em, first-line-indent: (amount: 2em, all: true), justify: true)
 
   // heading
   show heading: set text(size: size, weight: "bold")
