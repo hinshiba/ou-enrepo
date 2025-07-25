@@ -38,7 +38,7 @@
     #par(text(1em + 2pt, strong[#title]))
     #v(-2pt)
     #if subtitle != none {
-      par(text(1em, [#subtitle]))
+      par(text(1em + if (big_subtitles) { 2pt } else { 0pt }, [#subtitle]))
     }
     #par(text(1em + if (big_subtitles) { 2pt } else { 0pt }, [#author]))
   ]
