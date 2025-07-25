@@ -1,6 +1,6 @@
 [package]
 name = "ou-enrepo"
-version = "0.1.0"
+version = "0.1.1"
 entrypoint = "ou-enrepo.typ"
 authors = ["hinshiba"]
 license = "MIT"

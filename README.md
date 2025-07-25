@@ -28,7 +28,7 @@ English report at the Okayama University (Unofficial).
 先頭に追記します．
 
 ```typst
-#import "@local/ou-enrepo:0.1.0": *
+#import "@local/ou-enrepo:0.1.1": *
 ```
 
 ### Call Style
@@ -46,10 +46,17 @@ English report at the Okayama University (Unofficial).
   // size: 11pt,
   // font: "New Computer Modern",
   // paper: "a4",
+  // double_space: true,
+  // big_subtitles: true,
 )
 ```
 
 ## Changelog
+
+### v0.1.1
+
+行間: 2行の指定に対応する`double_space`引数を追加
+名前の大きさをタイトルとonazis\nisuru`big_subtitles`引数を追加
 
 ### v0.1.0
 
