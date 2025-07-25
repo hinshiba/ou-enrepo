@@ -12,6 +12,8 @@
   size: 12pt,
   font: "New Computer Modern",
   paper: "a4",
+  double_space: true,
+  big_subtitles: true,
   body,
 ) => {
   // metadata
@@ -38,7 +40,7 @@
     #if subtitle != none {
       par(text(1em, [#subtitle]))
     }
-    #par(text(1em, [#author]))
+    #par(text(1em + if (big_subtitles) { 2pt } else { 0pt }, [#author]))
   ]
 
   body
