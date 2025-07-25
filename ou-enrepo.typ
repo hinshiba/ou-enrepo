@@ -26,12 +26,23 @@
   // doc
   set document(title: title, author: author)
   set page(paper: paper)
-  set text(hyphenate: true, lang: "en", size: size, font: font)
-  set par(spacing: 1em, first-line-indent: (amount: 2em, all: true), justify: true)
-
-  // heading
-  show heading: set text(size: size, weight: "bold")
-  show heading: set block(below: 0.8em, above: 1.5em)
+  set text(
+    hyphenate: true,
+    lang: "en",
+    size: size,
+    font: font,
+    top-edge: if double_space { 0.7em } else {
+      "cap-height"
+    },
+    bottom-edge: if double_space { -0.3em } else {
+      "baseline"
+    },
+  )
+  set par(spacing: 1em, first-line-indent: (amount: 2em, all: true), justify: true, leading: if double_space {
+    1em
+  } else {
+    0.65em
+  })
 
   // title
   align(center)[
