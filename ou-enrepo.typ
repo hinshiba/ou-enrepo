@@ -9,7 +9,7 @@
   subtitle: "Sub Title",
   author: "hinshiba",
   // format
-  size: 11pt,
+  size: 12pt,
   font: "New Computer Modern",
   paper: "a4",
   body,
